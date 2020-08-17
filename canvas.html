@@ -1,0 +1,20 @@
+<html>
+    <head>
+	    <title>Canvas</title>
+	</head>
+	<body style="text-align:center;">
+	    <canvas id="My_Canvas" width="300" height="200" style="border:solid 1px black;">
+        </canvas>
+        <script>
+            var c=document.getElementById("My_Canvas");
+            var ctx=c.getContext("2d");
+            <!-- ctx.moveTo (0,0);-->
+            <!-- ctx.lineTo (300,200);-->
+			<!-- ctx.beginPath();-->
+			<!-- ctx.arc(150,100,70,0,2*Math.PI);-->
+			<!-- ctx.stroke();-->
+			ctx.font="30px Ariel";
+			ctx.strokeText("VANSHAM",100,100);
+		</script>
+	</body>
+</html>
